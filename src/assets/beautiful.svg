@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 374.781 242.143">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f1ae61;
+      }
+
+      .cls-2 {
+        opacity: 0.8;
+      }
+
+      .cls-3 {
+        opacity: 0.6;
+      }
+
+      .cls-4 {
+        opacity: 0.4;
+      }
+
+      .cls-5 {
+        opacity: 0.2;
+      }
+    </style>
+  </defs>
+  <g id="Group_16" data-name="Group 16" transform="translate(37.106 -649.677)">
+    <g id="Logo" transform="translate(-873.475 643.661) rotate(-40)">
+      <path id="Union_3" data-name="Union 3" class="cls-1" d="M.5,152.423a37.4,37.4,0,0,1,.407-5.513H.867l.105-.42a36.834,36.834,0,0,1,1.53-6.118L37.6,0,51.809,56.858l20.877,83.508a36.822,36.822,0,0,1,1.533,6.131l.1.413h-.039A37.1,37.1,0,1,1,.5,152.423Z" transform="translate(574 616.495)"/>
+    </g>
+    <g id="Logo-2" data-name="Logo" class="cls-2" transform="translate(-717.784 292.227) rotate(-20)">
+      <path id="Union_3-2" data-name="Union 3" class="cls-1" d="M.5,152.423a37.4,37.4,0,0,1,.407-5.513H.867l.105-.42a36.834,36.834,0,0,1,1.53-6.118L37.6,0,51.809,56.858l20.877,83.508a36.822,36.822,0,0,1,1.533,6.131l.1.413h-.039A37.1,37.1,0,1,1,.5,152.423Z" transform="translate(574 616.495)"/>
+    </g>
+    <g id="Logo-3" data-name="Logo" class="cls-3" transform="translate(-459.5 33.505)">
+      <path id="Union_3-3" data-name="Union 3" class="cls-1" d="M.5,152.423a37.4,37.4,0,0,1,.407-5.513H.867l.105-.42a36.834,36.834,0,0,1,1.53-6.118L37.6,0,51.809,56.858l20.877,83.508a36.822,36.822,0,0,1,1.533,6.131l.1.413h-.039A37.1,37.1,0,1,1,.5,152.423Z" transform="translate(574 616.495)"/>
+    </g>
+    <g id="Logo-4" data-name="Logo" class="cls-4" transform="translate(-125.757 -125.807) rotate(20)">
+      <path id="Union_3-4" data-name="Union 3" class="cls-1" d="M.5,152.423a37.4,37.4,0,0,1,.407-5.513H.867l.105-.42a36.834,36.834,0,0,1,1.53-6.118L37.6,0,51.809,56.858l20.877,83.508a36.822,36.822,0,0,1,1.533,6.131l.1.413h-.039A37.1,37.1,0,1,1,.5,152.423Z" transform="translate(574 616.495)"/>
+    </g>
+    <g id="Logo-5" data-name="Logo" class="cls-5" transform="translate(237.025 -159.544) rotate(40)">
+      <path id="Union_3-5" data-name="Union 3" class="cls-1" d="M.5,152.423a37.4,37.4,0,0,1,.407-5.513H.867l.105-.42a36.834,36.834,0,0,1,1.53-6.118L37.6,0,51.809,56.858l20.877,83.508a36.822,36.822,0,0,1,1.533,6.131l.1.413h-.039A37.1,37.1,0,1,1,.5,152.423Z" transform="translate(574 616.495)"/>
+    </g>
+  </g>
+</svg>
