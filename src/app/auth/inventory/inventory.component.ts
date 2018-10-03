@@ -13,6 +13,11 @@ export class InventoryComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+  	console.dir(this.items)
+  }
+
+  editItem(item: Item) {
+  	console.dir(item);
   }
 
 }

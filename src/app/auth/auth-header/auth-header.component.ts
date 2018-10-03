@@ -9,7 +9,7 @@ import { User } from '../user';
 })
 export class AuthHeaderComponent implements OnInit {
 	user: User = {
-		name: 'Brett K'
+		username: 'Brett K'
 	};
 
   constructor() { }

@@ -7,16 +7,30 @@
 		<input type="search" placeholder="Future Search">
 	</div>
 	<div class="item-list">
-		<div class="item" *ngFor="let item of items">
+		<div class="item" *ngFor="let item of items" (click)="editItem(item)">
+
 			<div>
-				<img src="{{item.img}}" alt="{{item.name}}">
+				<img src="{{item.img}}" alt="{{item.name}}" class="item-img">
 			</div>
-			<div>
-				<h3>{{item.name}}</h3>
-				<div *ngIf="item.status; then inBlock else outBlock"></div>
-				<ng-template #inBlock><small>In</small></ng-template>
-				<ng-template #outBlock><small>Out</small></ng-template>
+
+			<div class="item-details">
+
+				<h3>
+					<img src="/assets/out.svg" class="item-out" *ngIf="!item.in" alt="Out" title="Out">
+					{{item.name}}
+				</h3>
+
+				<small>{{item.serial}}</small>
+
+				<div class="attr-list">
+					<ng-container *ngFor="let attr of item.attrs | keyvalue">
+						<div>{{attr.key}}</div>
+						<div>{{attr.value}}</div>
+					</ng-container>
+				</div>
+
 			</div>
+
 		</div>
 	</div>
 </div>
