@@ -8,6 +8,8 @@ import { HeaderComponent } from './header/header.component';
 import { LoginFormComponent } from './login-form/login-form.component';
 import { LandingComponent } from './landing/landing.component';
 import { RegisterComponent } from './register/register.component';
+import { InventoryComponent } from './auth/inventory/inventory.component';
+import { AuthHeaderComponent } from './auth/auth-header/auth-header.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { RegisterComponent } from './register/register.component';
     HeaderComponent,
     LoginFormComponent,
     LandingComponent,
-    RegisterComponent
+    RegisterComponent,
+    InventoryComponent,
+    AuthHeaderComponent
   ],
   imports: [
     BrowserModule,

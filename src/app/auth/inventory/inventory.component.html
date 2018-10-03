@@ -1,0 +1,22 @@
+<app-auth-header></app-auth-header>
+
+<div class="container">
+	<h2>Inventory</h2>
+	<button type="button" class="btn">+ Add new item</button>
+	<div>
+		<input type="search" placeholder="Future Search">
+	</div>
+	<div class="item-list">
+		<div class="item" *ngFor="let item of items">
+			<div>
+				<img src="{{item.img}}" alt="{{item.name}}">
+			</div>
+			<div>
+				<h3>{{item.name}}</h3>
+				<div *ngIf="item.status; then inBlock else outBlock"></div>
+				<ng-template #inBlock><small>In</small></ng-template>
+				<ng-template #outBlock><small>Out</small></ng-template>
+			</div>
+		</div>
+	</div>
+</div>

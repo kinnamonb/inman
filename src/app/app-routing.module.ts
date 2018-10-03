@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { LandingComponent } from './landing/landing.component';
 import { RegisterComponent } from './register/register.component';
+import { InventoryComponent } from './auth/inventory/inventory.component';
 
 const routes: Routes = [
 	{
@@ -17,6 +18,10 @@ const routes: Routes = [
 	{
 		path: 'register',
 		component: RegisterComponent
+	},
+	{
+		path: 'inventory',
+		component: InventoryComponent
 	}
 ];
 
