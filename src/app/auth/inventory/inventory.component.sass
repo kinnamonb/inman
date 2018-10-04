@@ -14,12 +14,13 @@
 	display: grid
 	grid-auto-columns: max-content
 	grid-gap: 0.5em
+	justify-content: center
 	text-align: left
 
 	.item
 		padding: 0.5em
 		display: grid
-		grid-template-columns: 100px auto
+		grid-template-columns: 100px 1fr auto
 		grid-gap: 0.5em
 		height: 100px
 		cursor: pointer
@@ -55,3 +56,12 @@
 			grid-template-columns: auto 1fr
 			grid-auto-rows: 1em
 			grid-gap: 0 0.5em
+
+		.item-controls
+			margin: 1em 0 0 0
+			display: grid
+			grid-auto-columns: 24px
+			grid-auto-rows: 24px
+			grid-gap: 0.5em
+			align-items: center
+			justify-items: center

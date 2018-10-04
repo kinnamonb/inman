@@ -16,8 +16,19 @@ export class InventoryComponent implements OnInit {
   	console.dir(this.items)
   }
 
-  editItem(item: Item) {
-  	console.dir(item);
+  showReservations(item: Item) {
+
   }
 
+  editItem(item: Item) {
+    
+  }
+
+  reserveItem(item: Item) {
+
+  }
+
+  deleteItem(item: Item) {
+
+  }
 }
